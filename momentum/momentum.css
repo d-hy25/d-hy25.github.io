@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Mediem';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Mediem.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-ExtraBold';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+:root{
+  --backgroung-light: rgba(255, 255, 255, 0.6);
+  --backgroung-dark: #3A3A3A;
+  --text-light: #3A3A3A;
+  --text-dark: #fff;
+}
+body{
+  font-family: 'Pretendard', sans-serif;
+}
+body.dark_mode{
+  background-color: var(--backgroung-dark);
+  color: var(--text-dark);
+  text-decoration: #fff;
+  }
+
+body.dark_mode > .quote,
+body.dark_mode > .memowrap,
+body.dark_mode > .todowrap{
+  background-color: var(--backgroung-dark);
+  color: var(--text-dark);
+}
+
+  .hidden{
+  display: none;
+}
+main{
+  background-image: url(./image/village-bg.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center 70%;
+}
+input{
+  border: none;
+  border-bottom: 1px solid var(--backgroung-dark);
+  background-color: transparent;
+}
+body.dark_mode input{
+  border-bottom: 1px solid #fff;
+}
+/* input::placeholder{
+  color: var(--text-dark);
+} */
+#login{
+  text-align: center;
+  padding-top: 10px;
+}
+.main-wrap{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 15px;
+}
+.one-wrap, .todowrap{
+  margin-top: 30px;
+}
+.quote, .memowrap, .todowrap{
+  background-color: var(--backgroung-light);
+  color: var(--text-light);
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  /* box-shadow: 1px 1px 5px #000; */
+}
+.quote.dark_mode, 
+.memowrap.dark_mode, 
+.todowrap.dark_mode{
+  background-color: var(--backgroung-dark);
+  color: var(--text-dark);
+}
+.quote{
+  height: 100px;
+}
+/* .quote > p:nth-child(1){
+  text-decoration: underline;
+} */
+.quote > p:nth-child(2){
+  font-size: 14px;
+  margin-top: 10px;
+}
+.quote > p:nth-child(3){
+  font-size: 12px;
+  margin-top: 10px;
+}
+.memowrap{
+  height: 600px;
+  margin-top: 30px;
+}
+.todowrap{
+  height: 740px;
+}
+.weatherwrap > p,
+.datewrap > .clock,
+.datewrap > .date,
+.mode > p{
+  color: var(--text-dark);
+}
+.weatherwrap,
+.datewrap,
+.mode{
+  text-align: center;
+}
+.weatherwrap{
+  margin-left: 10px;
+}
+.weatherwrap > .region{
+  font-size: 12px;
+}
+.datewrap{
+  padding: 0 10px;
+}
+.datewrap > p:nth-child(1){
+  font-size: 32px;
+}
+.datewrap > p:nth-child(2){
+  font-size: 20px;
+}
+.footwrap{
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mode{
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+.mode > p,
+.weatherwrap > p:nth-child(2),
+.datewrap > p:nth-child(2){
+  font-weight: 100;
+}
+.mode > p:nth-child(1){
+  margin-bottom: 5px;
+}
+.todo-btn{
+  width: 12px;
+  height: 12px;
+  line-height: 6px;
+  text-align: center;
+}
+li:nth-child(1){
+  margin-top: 5px;
+}
+li{
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+input[type=checkbox]{
+  accent-color: #000;
+}
+input[type=checkbox]:checked + span{
+  text-decoration: line-through;
+}
+
+
+

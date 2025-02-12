@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+main{
+  background-color: #ffd8f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  /* width: 700px;
+  height: 600px; */
+  /* margin: auto; */
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+}
+h1{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 40px;
+  background-image: radial-gradient(circle, rgba(199,117,153,1) 0%, rgba(152,83,204,1) 50%, rgba(48,4,124,1) 100%);
+  background-clip: text;
+  color: transparent;
+}
+main > div.item{
+  margin: 20px;
+}
+main > div.item > div.title{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+main > div.item > div.line{
+  height: 10px;
+  border: 2px solid rgb(171, 17, 202);
+  border-radius: 5px;
+  padding: 2px;
+}
+main > div.item > div.line > div.bar{
+  height: 100%;
+  background-image: linear-gradient(rgba(238,174,202,1) 0%, rgba(168,109,212,1) 50%, rgba(88,0,238,1) 100%);
+  animation-name: progress;
+  animation-duration: 1s;
+}
+
+@keyframes progress {
+  0%{width: 0;}
+}

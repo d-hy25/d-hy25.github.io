@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <title>momentum</title>
+  <link rel="stylesheet" href="./momentum.css">
+</head>
+<body>
+  <main>
+    <form id="login">
+      <span>안녕하세요</span>
+      <input type="text" style="width: 80px;" required>
+      <span>님 !</span>
+    </form>
+  <div class="main-wrap">
+  <div class="one-wrap">
+    <div class="quote">
+      <p>TODAY'S QUOTE</p>
+      <p>명언</p>
+      <p>지은이 </p>
+    </div>
+    <div class="memowrap">
+      <p>MEMO</p>
+        <form id="memo">
+        <input type="text" required>
+        </form>
+      <ul class="memolist"></ul>
+    </div>
+  </div>
+    <div class="todowrap">
+      <p>TO DO LIST</p>
+        <form id="todoForm">
+          <input type="text" required>
+        </form>
+      <ul class="todolist"></ul>
+    </div>
+  </div>
+  <div class="footwrap">
+    <div class="datewrap">
+      <p class="clock"></p>
+      <p class="date"></p>
+    </div>
+    <div class="mode">
+      <p>Dark</p>
+      <p>Mode</p>
+    </div>
+  </div>
+  </main>
+  <script src="./script/quote.js"></script>
+  <script src="./script/memolist.js"></script>
+  <script src="./script/darkmode.js"></script>
+  <script src="./script/weather.js"></script>
+  <script src="./script/date.js"></script>
+  <script src="./script/login.js"></script>
+  <script src="./script/todolist.js"></script>
+  <script src="./script/clock.js"></script>
+  <script src="./script/bg.js"></script>
+</body>
+</html>
