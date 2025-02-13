@@ -355,10 +355,9 @@ footer > p:nth-of-type(2){
 /* 미디어쿼리 */
 @media screen and (max-width:1100px) {
   main > .card{
-    width: 23%;
+    width: 30%;
     margin: 0 auto;
   }
-
 }
 @media screen and (max-width:950px){
   header{
