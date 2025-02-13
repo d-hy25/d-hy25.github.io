@@ -194,7 +194,7 @@ section > h2{
   flex: 1;
   border-radius: 20px;
   background-color: var(--color-main);
-  color: var(--color-bg);
+  color: #fff;
   font-size: 3rem;
   font-weight: bold;
   line-height: 80px;
