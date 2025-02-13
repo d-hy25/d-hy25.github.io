@@ -356,7 +356,9 @@ footer > p:nth-of-type(2){
 @media screen and (max-width:1100px) {
   main > .card{
     width: 23%;
+    margin: 0 auto;
   }
+
 }
 @media screen and (max-width:950px){
   header{
@@ -403,11 +405,9 @@ footer > p:nth-of-type(2){
   main .card{
     width: 100%;
   }
-  nav > .btn > p:nth-of-type(1){
-    left: -20px;
-  }
-  nav > .btn > p:nth-of-type(2){
-    left: 90%;
+  nav > .icon{
+    width: 90%;
+    margin: 0 auto;
   }
   nav > .icon > .item > img{
     /* flex: 1; */
@@ -441,5 +441,11 @@ footer > p:nth-of-type(2){
   nav > .btn > p{
     font-size: 11px;
     line-height: 10px;
+  }
+  nav > .btn > p:nth-of-type(1){
+    left: -5px;
+  }
+  nav > .btn > p:nth-of-type(2){
+    left: 95%;
   }
 }
