@@ -295,6 +295,10 @@ main .card > .card-img > .card-title > p{
 main .card > .card-img > .card-title > i{
   color: white;
   font-size: x-large;
+  cursor: pointer;
+}
+main .card > .card-img > .card-title > i:hover{
+  color: pink;
 }
 main .card > .card-img > .card-btn > p{
   width: 30px;
