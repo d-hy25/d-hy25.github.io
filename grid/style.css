@@ -20,6 +20,9 @@ body{
   height: 100%;
   perspective: 800px;
 }
+nav{
+  z-index: 20;
+}
 
 /* menu bar */
 .menu-icon{
