@@ -224,7 +224,7 @@ main{
   z-index: 20;
 }
 .chevron > p:nth-of-type(2){
-  left: 83%;
+  left: 100%;
 }
 .two > h2{
   margin-top: 50px;
@@ -756,7 +756,7 @@ font-size: 25px;
     font-size: 10px;
   }
   .notice{
-    width: 22%;
+    width: 30%;
     margin-left: 8px;
   }
   .notice > span{
@@ -802,7 +802,7 @@ font-size: 25px;
     width: 120px;
     height: 40px;
     margin: 0;
-    margin-left: 100px;
+    margin-left: 170px;
     margin-top: 50px;
   }
   .two-btn > p,
