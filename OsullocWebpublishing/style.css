@@ -85,7 +85,7 @@ header > nav{
   margin-right: 14px;
 }
 .h-wrap{
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -224,7 +224,7 @@ main{
   z-index: 20;
 }
 .chevron > p:nth-of-type(2){
-  left: 98%;
+  left: 83%;
 }
 .two > h2{
   margin-top: 50px;
@@ -716,14 +716,14 @@ font-size: 25px;
     font-size: 20px;
   }
   .h-list > .h-txt > p:nth-of-type(2){
-    font-size: 16px;
+    font-size: 14px;
   }
   .h-bar > .hr-border{
     display: none;
   }
   .h-bar > p{
     font-size: 11px;
-    padding: 6px 9px;
+    padding: 8px 10px;
     margin: 0 auto;
   }
   .one > .one-wrap > .video{
@@ -753,6 +753,9 @@ font-size: 25px;
   }
   .tea > li{
     font-size: 10px;
+  }
+  .chevron > p:nth-of-type(2){
+    left: 98%;
   }
   .notice{
     width: 35%;
