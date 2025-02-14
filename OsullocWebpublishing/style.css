@@ -141,7 +141,7 @@ header > nav{
   align-items: center;
   gap: 10px;
   position: absolute;
-  bottom: -60%;
+  bottom: -50%;
   left: 140%;
 }
 /* main영역 */
@@ -761,7 +761,7 @@ font-size: 25px;
     margin-bottom: -5px;
   }
   .tea > li{
-    font-size: 10px;
+    font-size: 12px;
   }
   .chevron > p:nth-of-type(2){
     left: 98%;
@@ -771,7 +771,7 @@ font-size: 25px;
     margin-left: 8px;
   }
   .notice > span{
-    font-size: 10px;
+    font-size: 12px;
   }
   .notice > span:nth-of-type(2){
     width: 70%;
@@ -791,11 +791,6 @@ font-size: 25px;
     margin: 0 auto;
     gap: 7px;
     margin-top: 100px;
-  }
-  .two-card,
-  .trd-card,
-  .circle{
-    display: none;
   }
   .two-wrap > ul > li,
   .two-wrap > ul > span{
