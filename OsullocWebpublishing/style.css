@@ -711,9 +711,12 @@ font-size: 25px;
   .h-wrap > a > img{
     width: 30px;
   }
+  .h-list{
+    top: 35%;
+  }
   .h-list > .h-txt{
     width: 100%;
-    margin-left: 10px;
+    margin-left: 35px;
   }
   .h-list > .h-txt > p:nth-of-type(1){
     font-size: 20px;
