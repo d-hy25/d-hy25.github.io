@@ -997,9 +997,11 @@ font-size: 25px;
     margin-top: 20px;
   }
   .f-list-one,
-  .f-list-two,
-  .f-list-trd{
+  .f-list-two{
     margin: 10px 0;
+  }
+  .f-list-trd{
+    margin-bottom: 10px;
   }
   .f-list-one,
   .f-list-two{
