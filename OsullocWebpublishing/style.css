@@ -678,7 +678,8 @@ font-size: 25px;
     margin: 0 auto;
   }
   .list > li,
-  .b-txt{
+  .b-txt,
+  .hr-border{
     display: none;
   }
 }
