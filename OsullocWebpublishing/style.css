@@ -66,7 +66,7 @@ header > nav{
 .list > li{
   margin: 0 40px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 15px;
 }
 .icon > a > img{
   width: 20px;
@@ -79,10 +79,10 @@ header > nav{
 }
 .b-txt{
   font-weight: bold;
-  font-size: 11px;
+  font-size: 14px;
 }
 .b-txt > a:nth-of-type(1){
-  margin-right: 10px;
+  margin-right: 14px;
 }
 .h-wrap{
   width: 90%;
