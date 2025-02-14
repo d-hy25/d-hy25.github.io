@@ -830,7 +830,7 @@ font-size: 25px;
   .two > h2,
   .four > h2,
   .five > h2{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 30px;
   }
   .four > h2{
@@ -841,7 +841,7 @@ font-size: 25px;
   }
   .four > p,
   .five > p{
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 30px;
   }
   .two-btn,
