@@ -792,9 +792,24 @@ font-size: 25px;
     margin-top: 20px;
     margin-left: 70px;
   }
-  .img-wrap > .two-wrap > ul > li > img{
-    width: 15%;
-    height: 190px;
+  .img-wrap >.two-wrap > ul > li:nth-of-type(2){
+    font-size: 16px;
+  }
+  .img-wrap >.two-wrap > ul > li:nth-of-type(3){
+    color: var(--color-sub2);
+    font-size: 14px;
+    text-decoration: line-through;
+  }
+  .img-wrap > .two-wrap > ul > span:nth-of-type(1){
+    color: var(--color-point);
+    font-size: 14px;
+  }
+  .img-wrap > .two-wrap > ul > span:nth-of-type(2){
+    font-size: 16px;
+  }
+  .img-wrap > .two-wrap > ul > li >img{
+    width: 300px;
+    height: 350px;
   }
   .two-btn{
     display: flex;
@@ -818,9 +833,11 @@ font-size: 25px;
     font-size: 20px;
     margin-left: 30px;
   }
-  .four > h2,
+  .four > h2{
+    margin-top: 0;
+  }
   .five > h2{
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .four > p,
   .five > p{
@@ -840,9 +857,6 @@ font-size: 25px;
   .four-btn > p,
   .fv-btn > p{
     font-size: 12px;
-  }
-  .img-wrap{
-    flex-wrap: wrap;
   }
   .three-oimg{
     background-image: url(./imges/greenSnackMobile.jpg);
