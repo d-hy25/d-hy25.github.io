@@ -749,7 +749,7 @@ font-size: 25px;
     flex-direction: column;
   }
   video{
-    width: 80vw;
+    width: 500px;
     margin-left: 7px;
   }
   .one-list{
@@ -758,6 +758,8 @@ font-size: 25px;
   }
   .one-list > img{
     width: 200px;
+    float: none;
+    margin-left: 280px;
   }
   .one-list > img{
     float: left;
