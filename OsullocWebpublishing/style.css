@@ -694,7 +694,6 @@ font-size: 25px;
     background-image: url(./imges/main-img.png);
     object-fit: contain;
     background-size: cover;
-
     height: 70vh;
   }
   nav > a > img{
@@ -714,17 +713,17 @@ font-size: 25px;
     margin-left: 10px;
   }
   .h-list > .h-txt > p:nth-of-type(1){
-    font-size: 16px;
+    font-size: 20px;
   }
   .h-list > .h-txt > p:nth-of-type(2){
-    font-size: 12px;
+    font-size: 16px;
   }
   .h-bar > .hr-border{
     display: none;
   }
   .h-bar > p{
-    font-size: 8px;
-    padding: 5px 8px;
+    font-size: 11px;
+    padding: 6px 9px;
     margin: 0 auto;
   }
   .one > .one-wrap > .video{
@@ -756,7 +755,7 @@ font-size: 25px;
     font-size: 10px;
   }
   .notice{
-    width: 30%;
+    width: 35%;
     margin-left: 8px;
   }
   .notice > span{
