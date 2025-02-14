@@ -724,6 +724,9 @@ font-size: 25px;
   .h-list > .h-txt > p:nth-of-type(2){
     font-size: 14px;
   }
+  .h-bar{
+    margin-top: 20px;
+  }
   .h-bar > .hr-border{
     display: none;
   }
