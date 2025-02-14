@@ -97,7 +97,7 @@ header > nav{
   left: 13%;
 }
 .h-txt{
-  width: 80%;
+  width: 90%;
 }
 .h-txt > P{
   padding: 5px 0;
@@ -224,7 +224,7 @@ main{
   z-index: 20;
 }
 .chevron > p:nth-of-type(2){
-  left: 100%;
+  left: 88%;
 }
 .two > h2{
   margin-top: 50px;
