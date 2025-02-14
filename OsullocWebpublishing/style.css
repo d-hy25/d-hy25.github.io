@@ -688,6 +688,9 @@ font-size: 25px;
     font-weight: bold;
     font-size: 10px;
   }
+  .chevron > p:nth-of-type(2){
+    left: 99%;
+  }
 }
 @media screen and (max-width:750px){
   header{
