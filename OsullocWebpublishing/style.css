@@ -872,14 +872,12 @@ font-size: 25px;
   .trd-txt{
     position: absolute;
     left: 0;
+    top: -15px;
   }
   .trd-txt > p{
     font-size: 15px;
     font-weight: bold;
-    margin: 10px 0 160px 0;
-  }
-  .trd-txt > span{
-    font-weight: 200;
+    margin: 10px 0 190px 0;
   }
   .trd-txt > span:nth-of-type(1){
     color: var(--color-sub2);
@@ -887,21 +885,23 @@ font-size: 25px;
   }
   .trd-txt > span:nth-of-type(2){
     font-size: 25px;
+    font-weight: 600;
   }
   .trd-txt > span:nth-of-type(3){
     display: inline-block;
     background-color: var(--color-point);
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     color: var(--color-bg);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
   }
   .time-txt{
     display: flex;
+    gap: 200px;
   }
   .time-txt > span{
     font-weight: bold;
