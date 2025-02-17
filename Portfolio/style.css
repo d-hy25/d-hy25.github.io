@@ -213,11 +213,16 @@ header{
   background-color: var(--section-bg);
   height: 100vh;
 }
+.trd:nth-of-type(1){
+  background-color: var(--section-bg);
+}
 #trd > nav,
 .trd > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 95%;
+  margin: 0 auto;
 }
 #trd > nav > p, 
 .trd > nav > p{
@@ -235,17 +240,25 @@ header{
 #trd > nav >.trd-menu,
 .trd > nav > .trd-menu{
   display: flex;
+  gap: 10px;
 }
 #trd > nav > .trd-menu > li ,
 .trd > nav > .trd-menu > li ,
 .trd > nav > .trd-menu > li {
   font-weight: 200;
 }
+#trd > nav > .trd-menu > li:hover,
+.trd > nav > .trd-menu > li:hover,
+.trd > nav > .trd-menu > li:hover{
+  background-color: var(--font-color-w);
+  color: var(--font-color-b);
+}
 #trd > .slide-one > ul > li > img,
 .trd > .slide-two > ul > li > img,
 .trd > .slide-trd > ul > li > img{
   width: 300px;
   height: 300px;
+  box-shadow: 0 0 4px #fff;
 }
 #trd > .slide-one > ul > li > p,
 .trd > .slide-two > ul > li > p,
@@ -256,7 +269,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 .trd > .slide-two > ul,
 .trd > .slide-trd > ul{
@@ -269,6 +282,31 @@ header{
 .trd > .slide-trd > ul > li > img{
   border-radius: 5px;
 }
+/* 푸터영역 */
 footer{
-  background-color: var(--section-bg);
+  background-color: var(--header-bg);
+}
+.footer{
+  width: 90%;
+  margin: 0 auto;
+}
+.footer > p{
+  font-weight: 200;
+  padding-top: 30px;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 50px 0;
+}
+.footer-wrap >.f-img >img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #fff;
+}
+.f-txt > p{
+  font-weight: 200;
 }
