@@ -700,7 +700,7 @@ font-size: 25px;
 }
 @media screen and (max-width:750px){
   header{
-    background-image: url(./imges/MainMobile.jpg.png);
+    background-image: url(./imges/MainMobile.jpg);
     object-fit: contain;
     background-size: cover;
     height: 70vh;
