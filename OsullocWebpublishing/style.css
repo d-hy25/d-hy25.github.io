@@ -128,6 +128,7 @@ header > nav{
   border: 1px solid var(--color-main);
   padding: 7px 10px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .h-bar > .hr-border > hr{
   width: 240px;
@@ -718,11 +719,10 @@ font-size: 25px;
     width: 30px;
   }
   .h-list{
-    top: 35%;
+    top: 55%;
   }
   .h-list > .h-txt{
     width: 100%;
-    margin-left: 50px;
   }
   .h-list > .h-txt > p:nth-of-type(1){
     font-size: 25px;
@@ -739,7 +739,6 @@ font-size: 25px;
   .h-bar > p{
     font-size: 14px;
     padding: 10px 15px;
-    margin: 0 auto;
   }
   .one > .one-wrap > .video{
     display: block;
