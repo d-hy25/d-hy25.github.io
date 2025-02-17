@@ -972,7 +972,7 @@ font-size: 25px;
   .fv-img{
     background-image: url(./imges/fvimgMoblie.jpg);
     background-size: contain;
-    margin-left: 7px;
+    margin: 0 auto;
     width: 100%;
     height: 350px;
   }
