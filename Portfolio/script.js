@@ -1,3 +1,4 @@
+// 슬라이드 처리
 let currentIndex = 0;
 const images = document.querySelectorAll('.slide-one > ul > li > img');
 const slider = document.querySelector('.slider-one > ul');
@@ -15,7 +16,8 @@ function updateSlider() {
     slider.style.transform = `translateX(${offset}%)`;
 }
 
-document.querySelector('#trd > .chevron > p.right').addEventListener('click', () => {
+const init = ()=>{
+  document.querySelector('#trd > .chevron > p.right').addEventListener('click', () => {
     if (currentIndex < totalImages / slidesToShow - 1) {
         currentIndex++;
     } else {
@@ -32,3 +34,5 @@ document.querySelector('#trd > .chevron > p.left').addEventListener('click', () 
     }
     updateSlider();
 });
+}
+window.onload = init; 
