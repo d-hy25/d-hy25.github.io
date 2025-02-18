@@ -328,8 +328,8 @@ header{
 .trd > .slide-trd > ul > li > a > img{
   border-radius: 5px;
 }
-.trd {
-  /* display: none; */
+.trd , .trds{
+  display: none;
 }
 /* 푸터영역 */
 footer{
