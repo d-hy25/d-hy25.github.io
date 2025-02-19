@@ -1,12 +1,24 @@
 const nav = document.querySelector('.h-menu');
 window.addEventListener("scroll",()=>{
-  const scrollTop = document.documentElement.scrollTop;
-  if( scrollTop > 50 ){
+  const scrollY = window.scrollY; ;
+  if( scrollY > 50 ){
     nav.style.top = "0";
   }else{
     nav.style.top = "-70px";
   }
 });
+// const nav = document.querySelector('.h-menu');
+
+// // 스크롤 이벤트 리스너 추가
+// window.addEventListener("scroll", () => {
+//   const scrollY = window.scrollY; // 현재 스크롤 위치를 가져옴
+
+//   if (scrollY > 50) {
+//     nav.style.top = "0"; // 스크롤이 50px 이상일 경우 메뉴 표시
+//   } else {
+//     nav.style.top = "-70px"; // 스크롤이 50px 미만일 경우 메뉴 숨김
+//   }
+// });
 //scrolltop : 스크롤 현재위치값
 //scrollheight : html 전체 글의 길이
 //clientheight: 100vh 전체적인 스크롤 높이
