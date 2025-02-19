@@ -69,10 +69,7 @@ header > nav{
   font-size: 15px;
 }
 .list > li:hover{
-  padding: 10px;
   color: var(--color-main);
-  background-color: rgba(255,255,255,0.5);
-  border-radius: 5px;
 }
 .icon > a > img{
   width: 20px;
@@ -350,7 +347,7 @@ main{
 .time{
   color: var(--color-sub2);
 }
-.time > span{
+.time > .clock{
   font-weight: 200;
 }
 .time > i {
