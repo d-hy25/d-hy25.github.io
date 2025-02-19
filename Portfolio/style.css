@@ -181,6 +181,10 @@ header{
   width: 50px;
   height: 50px;
 }
+.skills > .skills-list > li> img:hover{
+  scale: 1.5;
+  transition: 0.5s ;
+}
 /* 섹션영역 */
 #two, .two{
   background-color: var(--clone-bg);

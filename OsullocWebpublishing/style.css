@@ -68,6 +68,12 @@ header > nav{
   font-weight: bold;
   font-size: 15px;
 }
+.list > li:hover{
+  padding: 10px;
+  color: var(--color-main);
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
 .icon > a > img{
   width: 20px;
   height: 20px;
@@ -80,6 +86,12 @@ header > nav{
 .b-txt{
   font-weight: bold;
   font-size: 14px;
+}
+.b-txt > a:hover{
+  padding: 5px;
+  color: var(--color-main);
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
 }
 .b-txt > a:nth-of-type(1){
   margin-right: 14px;
@@ -123,10 +135,10 @@ header > nav{
 }
 .h-bar > p{
   font-weight: 200;
-  font-size: 13px;
+  font-size: 15px;
   margin-right: 200px;
   border: 1px solid var(--color-main);
-  padding: 7px 10px;
+  padding: 10px 15px;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -143,7 +155,7 @@ header > nav{
   gap: 10px;
   position: absolute;
   bottom: -50%;
-  left: 180%;
+  left: 170%;
 }
 /* main영역 */
 main{
@@ -269,6 +281,11 @@ main{
   margin: 0 auto;
   gap: 7px;
   margin-top: 100px;
+}
+.two-btn:hover,
+.four-btn:hover,
+.fv-btn:hover{
+  background-color: #e7e7e7;;
 }
 .two-btn > i{
   font-size: 10px;

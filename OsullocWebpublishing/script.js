@@ -1,0 +1,1 @@
+const clock = document.querySelector('.three > .three-oimg > .trd-txt > .time-txt > .time > span');
