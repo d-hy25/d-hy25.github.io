@@ -17,7 +17,7 @@ function updateSlider() {
 }
 
 const init = ()=>{
-  document.querySelector('#trd > .chevron > p.right').addEventListener('click', () => {
+    document.querySelector('#trd > .chevron > p.right').addEventListener('click', () => {
     if (currentIndex < totalImages / slidesToShow - 1) {
         currentIndex++;
     } else {

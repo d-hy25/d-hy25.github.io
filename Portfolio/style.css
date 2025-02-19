@@ -225,31 +225,22 @@ header{
   cursor: pointer;
 }
 /* 퍼블리싱 영역 */
-#trd, .trd, .trds{
+#trd{
   background-color: var(--section-bg);
   height: 100vh;
 }
-.trd:nth-of-type(1){
-  background-color: var(--section-bg);
-}
-#trd > nav,
-.trd > nav,
-.trds > nav {
+#trd > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 95%;
   margin: 0 auto;
 }
-#trd > nav > p, 
-.trd > nav > p,
-.trds > nav > p{
-  padding: 30px 20px 40px 40px;
+#trd > nav > p{
+  padding: 30px 20px 40px 5px;
   font-weight: 200;
 }
-#trd > nav > .trd-menu > li,
-.trd > nav > .trd-menu > li,
-.trds > nav > .trd-menu > li{
+#trd > nav > .trd-menu > li{
   cursor: pointer;
   font-weight: 200;
   padding: 5px 10px;
@@ -257,20 +248,14 @@ header{
   border-radius: 5px;
   font-size: 14px;
 }
-#trd > nav >.trd-menu,
-.trd > nav > .trd-menu,
-.trds > nav > .trd-menu{
+#trd > nav >.trd-menu{
   display: flex;
   gap: 10px;
 }
-#trd > nav > .trd-menu > li ,
-.trd > nav > .trd-menu > li ,
-.trds > nav > .trd-menu > li {
+#trd > nav > .trd-menu > li{
   font-weight: 200;
 }
-#trd > nav > .trd-menu > li:hover,
-.trd > nav > .trd-menu > li:hover,
-.trds > nav > .trd-menu > li:hover{
+#trd > nav > .trd-menu > li:hover{
   background-color: var(--font-color-w);
   color: var(--font-color-b);
 }
@@ -298,15 +283,15 @@ header{
   margin: 0 auto;
 }
 #trd > .slide-one > ul > li > img,
-.trd > .slide-two > ul > li > a > img,
-.trds > .slide-trd > ul > li > a > img{
+#trd > .slide-two > ul > li > a > img,
+#trd > .slide-trd > ul > li > a > img{
   width: 300px;
   height: 300px;
   box-shadow: 0 0 4px #fff;
 }
 #trd > .slide-one > ul > li > p,
-.trd > .slide-two > ul > li > p,
-.trds > .slide-trd > ul > li > p{
+#trd > .slide-two > ul > li > p,
+#trd > .slide-trd > ul > li > p{
   text-align: center;
   margin-top: 10px;
 }
@@ -317,19 +302,16 @@ header{
   margin-top: 50px;
   transition: 0.5s ease-in-out;
 }
-.trd > .slide-two > ul,
-.trds > .slide-trd > ul{
+#trd > .slide-two > ul,
+#trd > .slide-trd > ul{
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
 }
-.trd > .slide-two > ul > li > a > img,
-.trd > .slide-trd > ul > li > a > img{
+#trd > .slide-two > ul > li > a > img,
+#trd > .slide-trd > ul > li > a > img{
   border-radius: 5px;
-}
-.trd , .trds{
-  display: none;
 }
 /* 푸터영역 */
 footer{
@@ -440,8 +422,8 @@ footer{
     margin: 0 auto;
   }
   #trd > .slide-one > ul > li > img,
-  .trd > .slide-two > ul > li > a > img,
-  .trds > .slide-trd > ul > li > a > img{
+  #trd > .slide-two > ul > li > a > img,
+  #trd > .slide-trd > ul > li > a > img{
     width: 270px;
     height: 270px;
   }
@@ -590,34 +572,23 @@ footer{
     border-radius: 5px;
   }
   #trd{
-    height: 315vh;
+    height: 100%;
   }
-  .trd, .trds{
-    height: 170vh;
-  }
-  #trd > nav,
-  .trd > nav,
-  .trds > nav {
+  #trd > nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 95%;
     margin: 0 auto;
   }
-  #trd > nav > p, 
-  .trd > nav > p,
-  .trds > nav > p{
+  #trd > nav > p{
     display: none;
   }
-  #trd > nav > .trd-menu,
-  .trd > nav > .trd-menu,
-  .trds > nav > .trd-menu {
+  #trd > nav > .trd-menu{
     margin: 0 auto;
     padding-top: 40px;
   }
-  #trd > nav > .trd-menu > li,
-  .trd > nav > .trd-menu > li,
-  .trds > nav > .trd-menu > li{
+  #trd > nav > .trd-menu > li{
     font-weight: 200;
     padding: 5px 10px;
     border: 1px solid var(--font-color-w);
@@ -632,8 +603,8 @@ footer{
     display: none;
   }
   #trd > .slide-one > ul > li > img,
-  .trd > .slide-two > ul > li > a > img,
-  .trds > .slide-trd > ul > li > a > img{
+  #trd > .slide-two > ul > li > a > img,
+  #trd > .slide-trd > ul > li > a > img{
     width: 250px;
     height: 250px;
   }
@@ -643,18 +614,23 @@ footer{
     gap: 20px;
     margin-top: 30px;
   }
-  .trd > .slide-two > ul,
-  .trd > .slide-trd > ul,
-  .trds > .slide-trd > ul{
+  #trd > .slide-one > ul,
+  #trd > .slide-two > ul,
+  #trd > .slide-trd > ul{
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
   #trd > .slide-one > ul > li > p,
-  .trd > .slide-two > ul > li > p,
-  .trds > .slide-trd > ul > li > p{
+  #trd > .slide-two > ul > li > p,
+  #trd > .slide-trd > ul > li > p{
     margin-top: 5px;
     font-size: 14px;
+  }
+  #trd > .slide-one > ul > li > p:last-child,
+  #trd > .slide-two > ul > li > p:last-child,
+  #trd > .slide-trd > ul > li > p:last-child{
+    padding-bottom: 20px;
   }
   .footer-wrap{
     display: block;
