@@ -574,6 +574,9 @@ footer{
   #trd{
     height: 100%;
   }
+  .chevron{
+    display: none !important;
+  }
   #trd > nav{
     display: flex;
     justify-content: space-between;
