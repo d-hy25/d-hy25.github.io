@@ -1,7 +1,7 @@
-// 슬라이드 처리
 let currentIndex = 0;
-const images = document.querySelectorAll('.slide-one > ul > li > img');
-const slider = document.querySelector('.slider-one > ul');
+const images = document.querySelectorAll('#trd > .slide-one > ul > li > img');
+console.log(images);
+const slider = document.querySelector('#trd > .slider-one > ul');
 const totalImages = images.length;
 
 // 한 번에 3개씩 이동
@@ -16,7 +16,6 @@ function updateSlider() {
     slider.style.transform = `translateX(${offset}%)`;
 }
 
-const init = ()=>{
     document.querySelector('#trd > .chevron > p.right').addEventListener('click', () => {
     if (currentIndex < totalImages / slidesToShow - 1) {
         currentIndex++;
@@ -34,5 +33,3 @@ document.querySelector('#trd > .chevron > p.left').addEventListener('click', () 
     }
     updateSlider();
 });
-}
-window.onload = init; 
