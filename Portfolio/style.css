@@ -38,6 +38,37 @@ html{
 body{
   font-family: 'Pretendard';
 }
+.coord{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.box{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+  cursor: none;
+  z-index: 40;
+}
+.fix-home{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: var(--point-color);
+  color: var(--font-color-w);
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  z-index: 20;
+}
 a{
   text-decoration: none;
   color: inherit;
@@ -48,8 +79,10 @@ li{
 /* header 영역 */
 header{
   position: relative;
+  top: 0;
   height: 100vh;
   background-color: var(--header-bg);
+  z-index: 30;
 }
 .h-menu{
   display: flex;
@@ -68,7 +101,7 @@ header{
   display: flex;
   gap: 10px;
 }
-.menu > li{
+.menu > a{
   cursor: pointer;
   padding: 5px 10px;
   font-weight: 200;
@@ -436,8 +469,19 @@ footer{
   }
 }
 @media screen and (max-width:500px){
+  .fix-home{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    bottom: 10px;
+    z-index: 30;
+  }
   header{
     height: 70vh;
+  }
+  #one{
+    z-index: 40;
   }
   .h-menu > h1{
     display: none;
@@ -446,7 +490,7 @@ footer{
     margin: 0 auto;
     padding-top: 20px;
   }
-  .menu > li{
+  .menu > a{
     padding: 5px 10px;
     font-weight: 200;
     border: 1px solid var(--font-color-w);
@@ -515,7 +559,7 @@ footer{
   }
   #two, .two{
     position: relative;
-    height: 80vh;
+    height: 90vh;
   }
   #two > p,
   .two > p{
@@ -561,7 +605,7 @@ footer{
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
   }
   .netflix-txt-one > .btn > a,
   .netflix-txt > .btn > a{
