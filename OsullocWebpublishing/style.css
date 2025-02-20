@@ -168,7 +168,10 @@ nav > ul{
   border: 1px solid var(--color-main);
   padding: 10px 15px;
   border-radius: 3px;
-  cursor: pointer;
+}
+.h-bar > p:hover{
+  color: var(--color-bg);
+  background-color: var(--color-main);
 }
 .h-bar > .hr-border > hr{
   width: 240px;
