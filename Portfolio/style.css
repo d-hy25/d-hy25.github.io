@@ -102,14 +102,13 @@ header{
   gap: 10px;
 }
 .menu > a{
-  cursor: pointer;
   padding: 8px 15px;
   font-weight: 200;
   border: 1px solid var(--font-color-w);
   border-radius: 5px;
   font-size: 18px;
 }
-.menu > li:hover{
+.menu > a:hover{
   background-color: var(--font-color-w);
   color: var(--font-color-b);
 }
@@ -248,7 +247,7 @@ header{
 .netflix-txt > .btn > a{
   flex: 1;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 28px;
   padding: 10px 50px;
   border-radius: 5px;
 }
@@ -397,19 +396,26 @@ footer{
 }
 /* 반응형 */
 @media screen and (max-width:1200px){
-  #two, .two{
-    height: 70vh;
-  }
-  #two > p,
-  .two > p{
+  #home > .h-menu > h1{
     font-size: 20px;
   }
+  .h-menu > .menu > a{
+    padding: 7px 12px;
+    font-size: 17px;
+  }
   .h-txt > p{
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .one-txt{
     display: flex;
     align-items: center;
+  }
+  .one-wrap{
+    padding-top: 30px;
+  }
+  .one-txt,
+  .skills{
+    padding-top: 50px;
   }
   .introduce-txt > p{
     font-size: 18px;
@@ -424,10 +430,11 @@ footer{
   .introduce > p,
   .iam > p,
   .skills > p{
-    font-size: 16px;
+    font-size: 18px;
   }
   .introduce-txt > p{
-    padding: 20px;
+    padding: 18px;
+    font-size: 20px;
   }
   .skills{
     padding: 20px 0;
@@ -437,6 +444,9 @@ footer{
     display: flex;
     justify-content: space-around;
     width: 890px;
+  }
+  #two, .two{
+    height: 80vh;
   }
   #two > p,
   .two > p{
@@ -475,7 +485,7 @@ footer{
   .netflix-txt > .btn > a{
     flex: 1;
     text-align: center;
-    font-size: 1rem;
+    font-size: 20px;
     padding: 10px 30px;
     border-radius: 5px;
   }
@@ -519,7 +529,7 @@ footer{
     font-size: 16px;
   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:750px){
   .fix-home{
     width: 30px;
     height: 30px;
@@ -532,6 +542,7 @@ footer{
     height: 70vh;
   }
   #one{
+    height: 110vh;
     z-index: 40;
   }
   .h-menu > h1{
@@ -541,7 +552,7 @@ footer{
     margin: 0 auto;
     padding-top: 20px;
   }
-  .menu > a{
+  .h-menu > .menu > a{
     padding: 5px 10px;
     font-weight: 200;
     border: 1px solid var(--font-color-w);
@@ -549,24 +560,26 @@ footer{
     font-size: 14px;
   }
   .h-txt > p{
-    font-size: 2rem;
+    font-size: 3rem;
   }
   #one > .one-wrap > hr:nth-of-type(2){
     display: none;
   }
+  .one-wrap{
+    padding: 0;
+  }
   .one-wrap > h4{
     font-size: 18px;
     font-weight: 200;
-    padding-top: 20px;
   }
   .one-txt{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .introduce{
-    margin-top: 20px;
-  }
+  /* .introduce{
+    margin-top: 10px;
+  } */
   .introduce > p,
   .iam > p{
   margin-top: 15px;
@@ -582,7 +595,7 @@ footer{
   .introduce > p,
   .iam > p,
   .skills > p{
-    font-size: 14px;
+    font-size: 16px;
   }
   .introduce-txt > p{
     padding: 21px;
@@ -698,7 +711,7 @@ footer{
     padding: 5px 10px;
     border: 1px solid var(--font-color-w);
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 15px;
   }
   #trd > .slide-one{
     width: 250px;
