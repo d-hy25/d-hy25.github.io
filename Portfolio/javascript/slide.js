@@ -12,7 +12,7 @@
         // 슬라이드를 표시하는 함수
         function showSlides() {
             // 각 슬라이드의 너비 (300px) * 현재 인덱스의 음수 값으로 이동
-            const offset = -currentIndex * 1200;
+            const offset = -currentIndex * 1600;
             ul.style.transform = `translateX(${offset}px)`;
         }
         // 다음 슬라이드로 이동하는 함수

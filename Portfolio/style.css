@@ -92,7 +92,7 @@ header{
   margin: 0 auto;
 }
 .h-menu > h1{
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   padding: 20px;
   font-weight: 200;
@@ -103,11 +103,11 @@ header{
 }
 .menu > a{
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 8px 15px;
   font-weight: 200;
   border: 1px solid var(--font-color-w);
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 18px;
 }
 .menu > li:hover{
   background-color: var(--font-color-w);
@@ -121,7 +121,7 @@ header{
   text-align: center;
 }
 .h-txt > p{
-  font-size: 6rem;
+  font-size: 7rem;
 }
 /* main 영역 */
 #one{
@@ -133,7 +133,7 @@ header{
   margin: 0 auto;
 }
 .one-wrap > h4{
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 200;
   padding-top: 30px;
 }
@@ -144,42 +144,50 @@ header{
 }
 .introduce > p,
 .iam > p{
-  margin-top: 25px;
+  margin-top: 40px;
   margin-bottom: 5px;
+  font-size: 20px;
 }
 .skills > p{
   margin-bottom: 5px;
+  font-size: 20px;
 }
 .introduce-txt, table{
   background-color: var(--box-bg);
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 250px;
   border-radius: 5px;
   color: var(--font-color-b);
+  margin-bottom: 50px;
 }
 .introduce-txt > p{
-  padding: 22px;
+  padding: 24px;
+  font-size: 22px;
+}
+.iam > table > tr > th{
+  font-size: 22px;
 }
 .skills{
   padding: 30px 0;
-  margin-left: 85px;
+  margin-left: 170px;
+  margin-bottom: 80px;
 }
 .skills-list{
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: var(--box-bg);
-  width: 970px;
-  height: 150px;
+  width: 1350px;
+  height: 200px;
   border-radius: 5px;
 }
 .skills > .skills-list > li:nth-of-type(3) > img{
-  width: 40px;
-  height: 50px;
+  width: 60px;
+  height: 70px;
 }
 .skills > .skills-list > li> img{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 .skills > .skills-list > li> img:hover{
   scale: 1.5;
@@ -194,14 +202,15 @@ header{
 .two > p{
   padding: 30px 20px 40px 40px;
   font-weight: 200;
+  font-size: 24px;
 }
 .two-wrap{
   display: flex;
   justify-content: space-around;
 }
 .two-wrap > .img > a > img{
-  width: 450px;
-  height: 500px;
+  width: 650px;
+  height: 700px;
   border-radius: 5px;
   box-shadow: 0 0 4px #fff;
 }
@@ -214,11 +223,12 @@ header{
 }
 .netflix-txt > p,
 .netflix-txt-one > p{
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 7px;
 }
 .netflix-txt > p:nth-of-type(1),
 .netflix-txt-one > p:nth-of-type(1){
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 20px;
 }
 .netflix-txt > p:nth-of-type(2){
@@ -276,6 +286,7 @@ header{
 #trd > nav > p{
   padding: 30px 20px 40px 5px;
   font-weight: 200;
+  font-size: 24px;
 }
 #trd > nav > .trd-menu > li{
   cursor: pointer;
@@ -283,7 +294,7 @@ header{
   padding: 5px 10px;
   border: 1px solid var(--font-color-w);
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 18px;
 }
 #trd > nav >.trd-menu{
   display: flex;
@@ -314,16 +325,17 @@ header{
 }
 #trd > .slide-one{
   position: relative;
-  width: 87%;
-  max-width: 1100px;
-  /* overflow: hidden; */
+  width: 90%;
+  max-width: 1550px;
+  overflow: hidden;
   margin: 0 auto;
+  margin-top: 50px;
 }
 #trd > .slide-one > ul > li > img,
 #trd > .slide-two > ul > li > a > img,
 #trd > .slide-trd > ul > li > a > img{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   box-shadow: 0 0 4px #fff;
 }
 #trd > .slide-one > ul > li > p,
@@ -334,7 +346,7 @@ header{
 }
 #trd > .slide-one > ul{
   display: flex;
-  gap: 100px;
+  gap: 150px;
   align-items: center;
   margin-top: 50px;
   transition: 0.5s ease;
@@ -344,7 +356,7 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 #trd > .slide-two > ul > li > a > img,
 #trd > .slide-trd > ul > li > a > img{
@@ -364,7 +376,8 @@ footer{
 }
 .footer-wrap{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 100px;
   align-items: center;
   padding: 50px 0;
 }
@@ -377,17 +390,29 @@ footer{
 .f-txt{
   width: 50%;
 }
-.f-txt > p{
+.f-txt > p,
+.f-txt > span{
   font-weight: 200;
+  font-size: 22px;
 }
 /* 반응형 */
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
+  #two, .two{
+    height: 70vh;
+  }
+  #two > p,
+  .two > p{
+    font-size: 20px;
+  }
   .h-txt > p{
     font-size: 4rem;
   }
   .one-txt{
     display: flex;
     align-items: center;
+  }
+  .introduce-txt > p{
+    font-size: 18px;
   }
   .introduce-txt, table{
     background-color: var(--box-bg);
@@ -406,12 +431,12 @@ footer{
   }
   .skills{
     padding: 20px 0;
-    margin-left: 30px;
+    margin-left: 85px;
   }
   .skills-list {
     display: flex;
     justify-content: space-around;
-    width: 765px;
+    width: 890px;
   }
   #two > p,
   .two > p{
@@ -419,8 +444,8 @@ footer{
     font-weight: 200;
   }
   .two-wrap > .img > a > img{
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 500px;
   }
   .netflix-txt,
   .netflix-txt-one{
@@ -428,7 +453,7 @@ footer{
   }
   .netflix-txt > p, 
   .netflix-txt-one > p{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 5px;
   } 
   .netflix-txt > p:nth-of-type(1),
@@ -436,7 +461,7 @@ footer{
     margin-left: -4px;
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .netflix-txt > .btn,
   .netflix-txt-one > .btn{
@@ -451,18 +476,40 @@ footer{
     flex: 1;
     text-align: center;
     font-size: 1rem;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border-radius: 5px;
+  }
+  #trd > .chevron{
+    display: none !important;
   }
   #trd > .slide-one{
     width: 700px;
-    margin: 0 auto;
   }
-  #trd > .slide-one > ul > li > img,
-  #trd > .slide-two > ul > li > a > img,
-  #trd > .slide-trd > ul > li > a > img{
+  #trd{
+    height: 170vh;
+  }
+  #trd > .slide-one > ul{
+    flex-wrap: wrap;
+  }
+  #trd > .slide-two > ul,
+  #trd > .slide-trd > ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #trd > .slide-one > ul > li > img{
     width: 270px;
     height: 270px;
+  }
+  #trd > .slide-two > ul > li > p,
+  #trd > .slide-trd > ul > li > p{
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  #trd > .slide-two > ul > li > a > img,
+  #trd > .slide-trd > ul > li > a > img{
+    width: 380px;
+    height: 380px;
   }
   .f-txt{
     width: 60%;
@@ -499,7 +546,7 @@ footer{
     font-weight: 200;
     border: 1px solid var(--font-color-w);
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .h-txt > p{
     font-size: 2rem;
@@ -508,7 +555,7 @@ footer{
     display: none;
   }
   .one-wrap > h4{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 200;
     padding-top: 20px;
   }
@@ -517,6 +564,9 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+  .introduce{
+    margin-top: 20px;
+  }
   .introduce > p,
   .iam > p{
   margin-top: 15px;
@@ -524,8 +574,8 @@ footer{
   } 
   .introduce-txt, table{
     background-color: var(--box-bg);
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     border-radius: 5px;
     color: var(--font-color-b);
   }
@@ -535,19 +585,19 @@ footer{
     font-size: 14px;
   }
   .introduce-txt > p{
-    padding: 16px;
-    font-size: 13px;
+    padding: 21px;
+    font-size: 16px;
   }
   .skills{
     padding: 10px 0;
-    margin-left: 20px;
+    margin-left: 65px;
   }
   .skills-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--box-bg);
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     border-radius: 5px;
   }
   .skills > .skills-list > li{
@@ -569,6 +619,7 @@ footer{
   .two > p{
     padding: 20px 10px 20px 20px;
     font-weight: 200;
+    font-size: 18px;
   }
   .two-wrap{
     display: flex;
@@ -576,32 +627,32 @@ footer{
   }
   .netflix-txt,
   .netflix-txt-one{
-    width: 92%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     z-index: 20;
-    margin-left: 16px;
+    margin-left: 35px;
   }
   .two-wrap > .img > a > img{
-    filter: brightness(20%);
-    width: 300px;
-    height: 300px;
-    margin-left: 11px;
+    filter: brightness(15%);
+    width: 450px;
+    height: 450px;
+    margin-left: 17px;
     position: absolute;
-    top: 20%;
+    top: 25%;
   }
   .netflix-txt > p, 
   .netflix-txt-one > p{
-    font-size: 12px;
-    margin-bottom: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
   } 
   .netflix-txt > p:nth-of-type(1),
   .netflix-txt-one > p:nth-of-type(1){
-    margin-left: -4px;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
+    margin-top: 60px;
   }
   .netflix-txt > .btn,
   .netflix-txt-one > .btn{
@@ -611,12 +662,15 @@ footer{
     gap: 10px;
     margin-top: 70px;
   }
+  .netflix-txt-one > .btn{
+    margin-top: 90px;
+  }
   .netflix-txt-one > .btn > a,
   .netflix-txt > .btn > a{
     flex: 1;
     text-align: center;
-    font-size: 1rem;
-    padding: 5px 30px;
+    font-size: 20px;
+    padding: 10px 30px;
     border-radius: 5px;
   }
   #trd{
@@ -644,7 +698,7 @@ footer{
     padding: 5px 10px;
     border: 1px solid var(--font-color-w);
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 13px;
   }
   #trd > .slide-one{
     width: 250px;
@@ -696,6 +750,6 @@ footer{
   }
   .f-txt > p{
     font-weight: 200;
-    font-size: 10px;
+    font-size: 13px;
   }
 }
