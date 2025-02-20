@@ -58,18 +58,47 @@ header > nav{
   padding: 17px 0;
   margin-bottom: 170px;
 }
+nav > ul{
+  display: flex;
+  font-weight: bold;
+}
 .list{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.list > li{
-  margin: 0 40px;
+.list > a{
+  padding: 10px 50px;
   font-weight: bold;
   font-size: 15px;
 }
-.list > li:hover{
+.menu-bg{
+  height: 170px;
+  background-color: rgba(255,255,255,0.8);
+  display: none;
+}
+.list > a:hover{
   color: var(--color-main);
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 5px;
+}
+.list-sub-menu{
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  opacity: 0;
+  background-color:  rgba(255,255,255,0.8);
+  transition: 0.5s;
+  z-index: 3;
+}
+.list-sub-menu > li{
+  color: var(--color-main);
+  padding: 8px 0;
+  text-align: center;
+} 
+.list-sub-menu.active{
+  opacity: 1;
 }
 .icon > a > img{
   width: 20px;
@@ -84,8 +113,10 @@ header > nav{
   font-weight: bold;
   font-size: 14px;
 }
+.b-txt > a{
+  padding: 7px;
+}
 .b-txt > a:hover{
-  padding: 5px;
   color: var(--color-main);
   background-color: rgba(255,255,255,0.5);
   border-radius: 5px;
@@ -697,7 +728,7 @@ font-size: 25px;
   header > nav > a {
     margin: 0 auto;
   }
-  .list > li,
+  nav > ul,
   .b-txt,
   .hr-border{
     display: none;
