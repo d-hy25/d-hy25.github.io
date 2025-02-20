@@ -94,19 +94,19 @@ header{
 .h-menu > h1{
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 20px;
+  padding: 30px;
   font-weight: 200;
 }
 .menu{
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .menu > a{
-  padding: 8px 15px;
+  padding: 10px 15px;
   font-weight: 200;
   border: 1px solid var(--font-color-w);
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .menu > a:hover{
   background-color: var(--font-color-w);
@@ -163,7 +163,7 @@ header{
   padding: 24px;
   font-size: 22px;
 }
-.iam > table > tr > th{
+th{
   font-size: 22px;
 }
 .skills{
@@ -224,6 +224,7 @@ header{
 .netflix-txt-one > p{
   font-size: 20px;
   margin-bottom: 7px;
+  white-space: pre-line;
 }
 .netflix-txt > p:nth-of-type(1),
 .netflix-txt-one > p:nth-of-type(1){
@@ -279,28 +280,29 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 85%;
   margin: 0 auto;
 }
 #trd > nav > p{
-  padding: 30px 20px 40px 5px;
+  padding: 40px 20px 40px 5px;
   font-weight: 200;
   font-size: 24px;
 }
 #trd > nav > .trd-menu > li{
   cursor: pointer;
   font-weight: 200;
-  padding: 5px 10px;
+  padding: 10px 15px;
   border: 1px solid var(--font-color-w);
   border-radius: 5px;
   font-size: 18px;
 }
 #trd > nav >.trd-menu{
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 #trd > nav > .trd-menu > li{
   font-weight: 200;
+  font-size: 22px;
 }
 #trd > nav > .trd-menu > li:hover{
   background-color: var(--font-color-w);
@@ -347,7 +349,7 @@ header{
   display: flex;
   gap: 150px;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 70px;
   transition: 0.5s ease;
 }
 #trd > .slide-two > ul,
@@ -355,7 +357,7 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 #trd > .slide-two > ul > li > a > img,
 #trd > .slide-trd > ul > li > a > img{
@@ -372,6 +374,7 @@ footer{
 .footer > p{
   font-weight: 200;
   padding-top: 30px;
+  font-size: 24px;
 }
 .footer-wrap{
   display: flex;
@@ -436,6 +439,9 @@ footer{
     padding: 18px;
     font-size: 20px;
   }
+  th{
+    font-size: 18px;
+  }
   .skills{
     padding: 20px 0;
     margin-left: 85px;
@@ -450,8 +456,9 @@ footer{
   }
   #two > p,
   .two > p{
-    padding: 20px 10px 20px 20px;
+    padding: 40px 10px 30px 20px;
     font-weight: 200;
+    font-size: 20px;
   }
   .two-wrap > .img > a > img{
     width: 450px;
@@ -463,13 +470,13 @@ footer{
   }
   .netflix-txt > p, 
   .netflix-txt-one > p{
-    font-size: 16px;
+    font-size: 19px;
     margin-bottom: 5px;
   } 
   .netflix-txt > p:nth-of-type(1),
   .netflix-txt-one > p:nth-of-type(1){
     margin-left: -4px;
-    font-size: 3rem;
+    font-size: 52px;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -485,7 +492,7 @@ footer{
   .netflix-txt > .btn > a{
     flex: 1;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px 30px;
     border-radius: 5px;
   }
@@ -497,6 +504,13 @@ footer{
   }
   #trd{
     height: 170vh;
+  }
+  #trd > nav > .trd-menu > li{
+    font-weight: 200;
+    padding: 8px 12px;
+    border: 1px solid var(--font-color-w);
+    border-radius: 5px;
+    font-size: 18px;
   }
   #trd > .slide-one > ul{
     flex-wrap: wrap;
@@ -526,7 +540,7 @@ footer{
   }
   .f-txt > p{
     font-weight: 200;
-    font-size: 16px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width:750px){
@@ -543,6 +557,7 @@ footer{
   }
   #one{
     height: 110vh;
+    position: relative;
     z-index: 40;
   }
   .h-menu > h1{
@@ -599,6 +614,9 @@ footer{
   }
   .introduce-txt > p{
     padding: 21px;
+    font-size: 16px;
+  }
+  th{
     font-size: 16px;
   }
   .skills{
