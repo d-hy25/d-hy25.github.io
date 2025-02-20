@@ -71,35 +71,42 @@ nav > ul{
 .list > a{
   padding: 10px 50px;
   font-weight: bold;
-  font-size: 15px;
-}
-.menu-bg{
-  height: 170px;
-  background-color: rgba(255,255,255,0.8);
-  display: none;
+  font-size: 16px;
 }
 .list > a:hover{
+  background-color: rgba(255,255,255,0.5);
   color: var(--color-main);
-  background-color: rgba(255,255,255,0.8);
   border-radius: 5px;
+}
+.list:hover > .list-sub-menu{
+  visibility: visible;
 }
 .list-sub-menu{
   width: 100%;
   position: absolute;
   top: 40px;
-  opacity: 0;
-  background-color:  rgba(255,255,255,0.8);
-  transition: 0.5s;
+  visibility: hidden;
+  background-color: var(--color-main);
+  background-color: #3F3E3C;
+  opacity: 0.9;
   z-index: 3;
 }
 .list-sub-menu > li{
-  color: var(--color-main);
-  padding: 8px 0;
+  color: var(--color-bg);
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 400;
   text-align: center;
+  cursor: pointer;
 } 
-.list-sub-menu.active{
+.list-sub-menu > li:hover{
+  background-color: var(--color-bg);
+  color: var(--color-main);
   opacity: 1;
 }
+/* .list-sub-menu.active{
+  opacity: 1;
+} */
 .icon > a > img{
   width: 20px;
   height: 20px;
