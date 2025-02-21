@@ -14,7 +14,7 @@ body{ height: 100vh;
 header{ 
   position: relative; /*** 기준범위 ***/
   height: 100%;
-  background-image: url(../images/Teslamain.jfif);
+  background-image: url(../images/Teslamain.jpg);
   background-size: cover;
   color: #fff;
   font-size: 20px;
@@ -85,20 +85,20 @@ main > div.card > div.card-txt > a{
   font-weight: bold;
 }
 main > div.one{
-  background-image: url(../images/model-Y.jfif);
+  background-image: url(../images/model-Y.jpg);
 }
 main > div.two{
-  background-image: url(../images/Model-S.jfif);
+  background-image: url(../images/Model-S.jpg);
 }
 main > div.four > div.detail > div.card-txt > a{
   color: #fff;
   font-weight: bold;
 }
 main > div.three{
-  background-image: url(../images/Model-3.jfif);
+  background-image: url(../images/Model-3.jpg);
 }
 main > div.four{
-  background-image: url(../images/Model-X.jfif);
+  background-image: url(../images/Model-X.jpg);
 }
 main > div.card div.card-txt {
   margin-top: 100px;
@@ -163,7 +163,7 @@ footer > ul{
 @media screen and (max-width:750px){
   
   header{
-    background-image: url(../images/Teslamain.jfif);
+    background-image: url(../images/Teslamain.jpg);
     background-size: cover;
   }
   header > nav > div.logo{
