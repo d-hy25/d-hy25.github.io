@@ -213,6 +213,10 @@ th{
   border-radius: 5px;
   box-shadow: 0 0 4px #fff;
 }
+.two-wrap > .img > a > img:hover{
+  scale: 1.1;
+  transition: 0.3s;
+}
 .netflix-txt,
 .netflix-txt-one{
   width: 42%;
