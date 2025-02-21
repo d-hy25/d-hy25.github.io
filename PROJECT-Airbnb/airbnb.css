@@ -252,35 +252,35 @@ main .card:nth-of-type(4) > .card-img{
   background-size: cover;
 }
 main .card:nth-of-type(5) > .card-img{
-  background-image: url(./imeges/Jejusi.jpg);
+  background-image: url(./imeges/bed.jpg);
   background-size: cover;
 }
 main .card:nth-of-type(6) > .card-img{
-  background-image: url(./imeges/Jejudo.jpeg);
+  background-image: url(./imeges/cityview.jpeg);
   background-size: cover;
 }
 main .card:nth-of-type(7) > .card-img{
-  background-image: url(./imeges/Hyoennam.jpg);
+  background-image: url(./imeges/seoul.jpeg);
   background-size: cover;
 }
 main .card:nth-of-type(8) > .card-img{
-  background-image: url(./imeges/Jejusi.jpg);
+  background-image: url(./imeges/tree.jpg);
   background-size: cover;
 }
 main .card:nth-of-type(9) > .card-img{
-  background-image: url(./imeges/Jejudo.jpeg);
+  background-image: url(./imeges/yongsan.jpeg);
   background-size: cover;
 }
 main .card:nth-of-type(10) > .card-img{
-  background-image: url(./imeges/Hyoennam.jpg);
+  background-image: url(./imeges/table.jpeg);
   background-size: cover;
 }
 main .card:nth-of-type(11) > .card-img{
-  background-image: url(./imeges/Yeosu.jpeg);
+  background-image: url(./imeges/cozy.jpg);
   background-size: cover;
 }
 main .card:nth-of-type(12) > .card-img{
-  background-image: url(./imeges/Jejusi.jpg);
+  background-image: url(./imeges/purple.jpeg);
   background-size: cover;
 }
 .view-btn{
