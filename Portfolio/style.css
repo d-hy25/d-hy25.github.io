@@ -132,7 +132,7 @@ header{
   margin: 0 auto;
 }
 .one-wrap > h4{
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 200;
   padding-top: 75px;
 }
@@ -388,7 +388,7 @@ footer{
 .footer > p{
   font-weight: 200;
   padding-top: 30px;
-  font-size: 24px;
+  font-size: 32px;
 }
 .footer-wrap{
   display: flex;
@@ -808,6 +808,9 @@ footer{
   #trd > .slide-two > ul > li > p:last-child,
   #trd > .slide-trd > ul > li > p:last-child{
     padding-bottom: 20px;
+  }
+  .footer > p{
+    font-size: 24px;
   }
   .footer-wrap{
     display: block;
