@@ -423,6 +423,9 @@ footer{
   .h-txt > p{
     font-size: 5rem;
   }
+  .one-wrap > h4{
+    font-size: 28px;
+  }
   .one-txt{
     display: flex;
     align-items: center;
@@ -555,6 +558,9 @@ footer{
   #trd > .slide-trd > ul > li > a > img{
     width: 380px;
     height: 380px;
+  }
+  .footer > p{
+    font-size: 28px;
   }
   .f-txt{
     width: 60%;
