@@ -534,6 +534,7 @@ font-size: 25px;
 .five > h2{
   margin-top: 100px;
   margin-bottom: 10px;
+  font-size: 30px;
 }
 .five > p{
   color: var(--color-sub);
@@ -740,11 +741,94 @@ font-size: 25px;
   }
   nav > ul,
   .b-txt,
-  .hr-border{
+  .h-bar > .hr-border{
+    display: none ;
+  }
+  video{
+    width: 600px;
+    margin-left: 20px;
+  }
+  .one-list{
+    margin-left: 20px;
+  }
+  .one-list > p{
+    font-size: 24px;
+    margin-top: 15px;
+  }
+  .one-list > img{
+    width: 65%;
+    margin-top: 10px;
+  }
+  .notice{
+    width: 83%;
+    margin-left: 20px;
+  }
+  .chevron > .right{
+    left: 99%;
+  }
+  .img-wrap{
+    width: 90%;
+  }
+  .img-wrap > .two-wrap:nth-of-type(5){
     display: none;
   }
+  .two > h2,
+  .four > h2, .four > p,
+  .five > h2, .five > p{
+    margin-left: 20px;
+  }
+  .two > h2,
+  .four > h2,
+  .five > h2{
+    font-size: 24px;
+  }
+  .two-btn, .fv-btn{
+    width: 170px;
+    margin-left: 36%;
+  }
+  .four-btn{
+    width: 220px;
+    margin-left: 36%;
+  }
+  .three-img-wrap{
+    width: 85%;;
+    margin-left: 30px;
+  }
+  .slide{
+    width: 90%;
+  }
+  .f-list-trd {
+    margin-left: 50px;
+    gap: 30px;
 }
-@media screen and (max-width:950px){
+  .f-list-one > p:nth-of-type(3){
+    font-size: 20px;
+  }
+  .f-list-trd > ul > li:nth-of-type(2) > a{
+    font-size: 13px;
+  }
+  .f-osulloc > a > img{
+    margin-left: 20px;
+  }
+  .f-osulloc-txt{
+    width: 100%;
+  }
+  .blue-logo {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  .blue-logo > p {
+    padding: 5px 0 3px 10px;
+  }
+}
+@media screen and (max-width:550px){
+  header{
+    background-image: url(./imges/MainMobile.jpg);
+    object-fit: contain;
+    background-size: cover;
+    height: 70vh;
+  }
   .list > li{
     margin: 0 20px;
     font-weight: bold;
@@ -752,14 +836,6 @@ font-size: 25px;
   }
   .chevron > p:nth-of-type(2){
     left: 99%;
-  }
-}
-@media screen and (max-width:750px){
-  header{
-    background-image: url(./imges/MainMobile.jpg);
-    object-fit: contain;
-    background-size: cover;
-    height: 70vh;
   }
   nav > a > img{
     width: 80px;
@@ -1009,11 +1085,16 @@ font-size: 25px;
     font-size: 20px;
     margin-top: 85px;
   }
+  .three-img-wrap{
+    width: 100%;;
+    margin-left: 0;
+  }
   .slide{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 70px;
+    width: 100%;
   }
   .slide > a:nth-of-type(1),
   .slide > a:last-of-type{
@@ -1110,5 +1191,9 @@ font-size: 25px;
   .blue-logo{
     margin: 0 auto;
     margin: 10px 0;
+  }
+  .blue-logo > p{
+    text-align: center;
+    padding-top: 10px;
   }
 }
