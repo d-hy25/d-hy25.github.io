@@ -604,8 +604,9 @@ footer{
     padding: 0;
   }
   .one-wrap > h4{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 200;
+    padding-top: 50px;
   }
   .one-txt{
     display: flex;
