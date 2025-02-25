@@ -139,7 +139,7 @@ nav > ul{
 }
 .h-list{
   position: absolute;
-  top: 40%;
+  top: 35%;
   transform: translateY(-50%);
   left: 13%;
 }
@@ -192,7 +192,7 @@ nav > ul{
   align-items: center;
   gap: 10px;
   position: absolute;
-  bottom: -50%;
+  bottom: -80%;
   left: 170%;
 }
 /* main영역 */
