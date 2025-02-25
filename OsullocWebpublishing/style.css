@@ -819,7 +819,10 @@ font-size: 25px;
     margin-right: 20px;
   }
   .blue-logo > p {
-    padding: 5px 0 3px 10px;
+    padding: 5px 0 6px 10px;
+  }
+  .f-detail > p{
+    font-size: 9px;
   }
 }
 @media screen and (max-width:550px){
@@ -968,9 +971,11 @@ font-size: 25px;
   }
   .four > h2{
     margin-top: 0;
+    margin-bottom: 5px;
   }
   .five > h2{
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 5px;
   }
   .four > p,
   .five > p{
@@ -990,7 +995,7 @@ font-size: 25px;
     height: 40px;
     margin: 0;
     margin-left: 160px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .two-btn > p,
   .four-btn > p,
