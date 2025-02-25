@@ -381,6 +381,7 @@ th{
 /* 푸터영역 */
 footer{
   background-color: var(--header-bg);
+  height: 70vh;
 }
 .footer{
   width: 90%;
@@ -396,11 +397,11 @@ footer{
   justify-content: center;
   gap: 100px;
   align-items: center;
-  padding: 50px 0;
+  margin: 130px auto;
 }
 .footer-wrap >.f-img >img{
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   box-shadow: 0 0 4px #fff;
 }
@@ -410,7 +411,7 @@ footer{
 .f-txt > p,
 .f-txt > span{
   font-weight: 200;
-  font-size: 22px;
+  font-size: 26px;
 }
 /* 반응형 */
 @media screen and (max-width:1200px){
@@ -563,8 +564,18 @@ footer{
     width: 380px;
     height: 380px;
   }
+  footer{
+    height: 60vh;
+  }
   .footer > p{
     font-size: 28px;
+  }
+  .footer-wrap{
+    margin: 110px auto;
+  }
+  .footer-wrap > .f-img > img{
+    width: 250px;
+    height: 250px;
   }
   .f-txt{
     width: 60%;
@@ -821,12 +832,24 @@ footer{
   #trd > .slide-trd > ul > li > p:last-child{
     padding-bottom: 20px;
   }
+  footer{
+    height: 30vh;
+  }
+  .footer{
+    width: 100%;
+  }
   .footer > p{
     font-size: 24px;
+    padding-left: 25px;
+  }
+  .footer > hr{
+    width: 90%;
+    margin: 0 auto;
   }
   .footer-wrap{
     display: block;
     padding: 25px 0;
+    margin: 10px auto;
   }
   .footer-wrap > .f-img > img{
     display: none;
@@ -836,6 +859,7 @@ footer{
   }
   .f-txt > p{
     font-weight: 200;
-    font-size: 13px;
+    font-size: 14px;
+    padding-left: 20px;
   }
 }
