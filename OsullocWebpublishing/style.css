@@ -1099,7 +1099,7 @@ font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 70px;
+    margin-left: 60px;
     width: 100%;
   }
   .slide > a:nth-of-type(1),
