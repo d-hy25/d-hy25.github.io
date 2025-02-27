@@ -160,7 +160,7 @@ header{
   margin-bottom: 50px;
 }
 .introduce-txt > p{
-  padding: 24px;
+  padding: 27px;
   font-size: 22px;
 }
 th{
@@ -452,7 +452,7 @@ footer{
     font-size: 18px;
   }
   .introduce-txt > p{
-    padding: 18px;
+    padding: 20px;
     font-size: 20px;
   }
   th{
@@ -656,8 +656,8 @@ footer{
     font-size: 16px;
   }
   .introduce-txt > p{
-    padding: 21px;
-    font-size: 16px;
+    padding: 22px;
+    font-size: 17px;
   }
   th{
     font-size: 16px;
