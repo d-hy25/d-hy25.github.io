@@ -360,6 +360,10 @@ th{
   height: 400px;
   box-shadow: 0 0 4px #fff;
 }
+#trd > .slide-two > ul > li > a > img:hover,
+#trd > .slide-trd > ul > li > a > img:hover{
+  scale: 1.2;
+}
 #trd > .slide-one > ul > li > p,
 #trd > .slide-two > ul > li > p,
 #trd > .slide-trd > ul > li > p{
@@ -701,7 +705,7 @@ footer{
   }
   #two > p,
   .two > p{
-    padding: 20px 10px 20px 20px;
+    padding: 30px 10px 20px 20px;
     font-weight: 200;
     font-size: 18px;
   }
@@ -726,6 +730,9 @@ footer{
     margin-left: 17px;
     position: absolute;
     top: 25%;
+  }
+  .two-wrap > .img > a > img:hover{
+    scale: 1;
   }
   .netflix-txt-p > p,
   .netflix-txt > p, 
