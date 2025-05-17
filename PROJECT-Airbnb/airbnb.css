@@ -153,7 +153,7 @@ main{
 nav{
   display: flex;
   align-items: center;
-  position: relative;
+  /* position: relative; */
 }
 nav > .btn > p{
   width: 20px;
@@ -166,8 +166,7 @@ nav > .btn > p{
   font-weight: bolder;
   background-color: white;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 230px;
   background-color: white;
   /* opacity: 0.8; */
 }
@@ -176,10 +175,10 @@ nav > .btn > p:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 nav > .btn > p:nth-of-type(1){
-  left: -20px;
+ left: 10px;
 }
 nav > .btn > p:nth-of-type(2){
-  left: 90%;
+ right: 10px;
 }
 nav > .icon{
   /* flex: 1; */
@@ -220,7 +219,7 @@ main > .card-list{
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  justify-content: space-between;
 }
 main .card{
   width: 15%;
@@ -373,10 +372,12 @@ footer > p:nth-of-type(2){
     width: 85%;
   }
   nav > .btn > p:nth-of-type(1){
-    left: -20px;
+    left: 10px;
+    top: 260px;
   }
   nav > .btn > p:nth-of-type(2){
-    left: 85%;
+    right: 10px;
+    top: 260px;
   }
   nav > .icon > .item > img{
     /* flex: 1; */
@@ -389,6 +390,7 @@ footer > p:nth-of-type(2){
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 20px;
   }
   nav > .filter > span{
     font-size: 14px;
@@ -442,9 +444,9 @@ footer > p:nth-of-type(2){
     line-height: 10px;
   }
   nav > .btn > p:nth-of-type(1){
-    left: -5px;
+    top: 30px;
   }
   nav > .btn > p:nth-of-type(2){
-    left: 95%;
+    top: 30px;
   }
 }
