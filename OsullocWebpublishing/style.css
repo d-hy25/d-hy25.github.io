@@ -192,8 +192,8 @@ nav > ul{
   align-items: center;
   gap: 10px;
   position: absolute;
-  bottom: -80%;
-  left: 170%;
+  bottom: -80px;
+  left: 350px;
 }
 /* main영역 */
 main{
