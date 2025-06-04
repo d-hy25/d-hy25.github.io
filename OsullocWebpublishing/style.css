@@ -49,14 +49,14 @@ header{
 }
 header > nav{
   position: relative;
+  width: 100%;
   color: var(--color-bg);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 80%;
-  margin: 0 auto;
-  padding: 17px 0;
+  padding: 15px 0;
   margin-bottom: 170px;
+  /* background-color: var(--color-bg); */
 }
 nav > ul{
   display: flex;
@@ -74,7 +74,7 @@ nav > ul{
   font-size: 16px;
 }
 .list > a:hover{
-  background-color: rgba(255,255,255,0.5);
+  background-color: var(--color-bg);
   color: var(--color-main);
   border-radius: 5px;
 }
@@ -86,24 +86,23 @@ nav > ul{
   position: absolute;
   top: 40px;
   visibility: hidden;
-  background-color: var(--color-main);
-  background-color: #3F3E3C;
+  background-color: var(--color-bg);
   opacity: 0.9;
   z-index: 3;
 }
 .list-sub-menu > li{
-  color: var(--color-bg);
+  color: var(--color-main);
   padding: 10px 0;
   font-size: 15px;
   font-weight: 400;
   text-align: center;
   cursor: pointer;
 } 
-.list-sub-menu > li:hover{
+/* .list-sub-menu > li:hover{
   background-color: var(--color-bg);
   color: var(--color-main);
   opacity: 1;
-}
+} */
 /* .list-sub-menu.active{
   opacity: 1;
 } */
@@ -266,13 +265,16 @@ main{
   height: 20px;
 }
 /* main 2번째 영역 */
-.chevron > p{
+.chevron {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
   position: absolute;
   cursor: pointer;
   z-index: 20;
 }
 .chevron > .right{
-  left: 81%;
+  right: 80px;
 }
 .left, .right{
   width: 40px;
