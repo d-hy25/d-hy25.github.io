@@ -123,11 +123,12 @@ header{
 .h-txt > p{
   font-size: 7rem;
 }
-/* main 영역 */
-#one{
-  background-color: var(--section-bg);
-  height: 100vh;
-}
+                      /* main 영역 */
+                      #one{
+                        background-color: var(--section-bg);
+                        
+                      }
+
 .one-wrap{
   width: 90%;
   margin: 0 auto;
@@ -201,10 +202,10 @@ th{
   transition: 0.5s ;
 }
 /* 섹션영역 */
-#two, .two{
-  background-color: var(--clone-bg);
-  height: 100vh;
-}
+                        #two, .two{
+                          background-color: var(--clone-bg);
+                          
+                        }
 #two > p,
 .two > p{
   padding: 50px 0 60px 50px;
@@ -216,19 +217,18 @@ th{
   justify-content: space-around;
 }
 .two-wrap > .img > a > img{
-  width: 650px;
-  height: 700px;
+  width: 600px;
+  height: 650px;
   border-radius: 5px;
-  box-shadow: 0 0 4px #fff;
 }
 .two-wrap > .img > a > img:hover{
-  scale: 1.1;
+  scale: 1.02;
   transition: 0.3s;
 }
 .netflix-txt-p,
 .netflix-txt,
 .netflix-txt-one{
-  width: 42%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -236,14 +236,14 @@ th{
 .netflix-txt-p > p,
 .netflix-txt > p,
 .netflix-txt-one > p{
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 7px;
   white-space: pre-line;
 }
 .netflix-txt-p > p:nth-of-type(1),
 .netflix-txt > p:nth-of-type(1),
 .netflix-txt-one > p:nth-of-type(1){
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
 }
 .netflix-txt > p:nth-of-type(2){
@@ -259,6 +259,7 @@ th{
   justify-content: center;
   align-items: flex-start;
   gap: 25px;
+  padding-bottom: 50px;
 }
 .netflix-txt-p > .btn > a,
 .netflix-txt-one > .btn > a,
@@ -292,11 +293,14 @@ th{
   border: 1px solid var(--font-color-w);
   cursor: pointer;
 }
-/* 퍼블리싱 영역 */
-#trd{
-  background-color: var(--section-bg);
-  height: 100vh;
+.img{
+  padding-bottom: 50px;
 }
+/* 퍼블리싱 영역 */
+                                    #trd{
+                                      background-color: var(--section-bg);
+                                      
+                                    }
 #trd > nav {
   display: flex;
   justify-content: space-between;
@@ -352,7 +356,7 @@ th{
   max-width: 1550px;
   overflow: hidden;
   margin: 0 auto;
-  margin-top: 50px;
+  padding-bottom: 100px;
 }
 #trd > .slide-one > ul > li > img,
 #trd > .slide-two > ul > li > a > img,
@@ -390,11 +394,11 @@ th{
 #trd > .slide-trd > ul > li > a > img{
   border-radius: 5px;
 }
-/* 푸터영역 */
-footer{
-  background-color: var(--header-bg);
-  height: 70vh;
-}
+                        /* 푸터영역 */
+                        footer{
+                          background-color: var(--header-bg);
+                          
+                        }
 .footer{
   width: 90%;
   margin: 0 auto;
@@ -409,7 +413,6 @@ footer{
   justify-content: center;
   gap: 100px;
   align-items: center;
-  margin: 130px auto;
 }
 .footer-wrap >.f-img >img{
   width: 300px;
@@ -418,15 +421,36 @@ footer{
   box-shadow: 0 0 4px #fff;
 }
 .f-txt{
-  width: 50%;
+  width: 70%;
+  padding: 200px 0 200px 0;
 }
 .f-txt > p,
 .f-txt > span{
   font-weight: 200;
   font-size: 26px;
 }
+
+
+
+
 /* 반응형 */
-@media screen and (max-width:1200px){
+@media screen and (min-width:751px) and (max-width:1200px){
+
+                    body .two-wrap>.img>a>img{ display: none; }
+                    #one, #two, .two-wrap{ padding-bottom:50px;}
+
+                    body .netflix-txt-p, body .netflix-txt,body .netflix-txt-one, body .f-txt p{
+                      width:90%; margin:0 5%; padding:0;
+                    }
+                    .two-wrap>div>p>b:nth-of-type(2){
+                      display: block; padding-top:10px;
+                      width:90%; overflow:hidden; font-size:12px; }
+
+                    .netflix-txt-p>p:not(:first-child), .netflix-txt>p, .netflix-txt-one>p{
+                      padding:20px 0; display: block;
+                    }
+
+
   #home > .h-menu > h1{
     font-size: 20px;
   }
@@ -477,14 +501,24 @@ footer{
     padding: 20px 0;
     margin-left: 85px;
   }
-  .skills-list {
-    display: flex;
-    justify-content: space-around;
-    width: 890px;
-  }
-  #two, .two{
-    height: 80vh;
-  }
+                                .skills , .one-txt, .one-txt>div{
+                                  width:100%;
+                                }
+
+                                .one-txt>div>*:not(:first-child){
+                                  width:80%; margin:0 10%;
+                                }
+                                .one-txt div *{ font-size:1em; }
+
+
+                                body #one .skills .skills-list {
+                                  display: flex;
+                                  justify-content: space-around;
+                                  width:90%; margin:0 5%;
+                                }
+                                #two, .two{
+                                  /*height: 80vh;*/
+                                }
   #two > p,
   .two > p{
     padding: 50px 0 40px 30px;
@@ -543,9 +577,9 @@ footer{
   #trd > .slide-one{
     width: 700px;
   }
-  #trd{
-    height: 170vh;
-  }
+                                  #trd{
+                                    /*height: 170vh;*/
+                                  }
   #trd > nav > p{
     font-size: 24px;
   }
@@ -579,9 +613,11 @@ footer{
     width: 380px;
     height: 380px;
   }
-  footer{
-    height: 60vh;
-  }
+                                    footer{
+                                      /*height: 60vh;*/
+                                      background: #000;
+                                      overflow: auto;
+                                    }
   .footer > p{
     font-size: 28px;
   }
@@ -600,7 +636,25 @@ footer{
     font-size: 19px;
   }
 }
+
+
 @media screen and (max-width:750px){
+
+
+            body .two-wrap>.img>a>img{ display: none; }
+            #one, #two, .two-wrap{ padding-bottom:50px;}
+
+            body .netflix-txt-p, body .netflix-txt,body .netflix-txt-one, body .f-txt p{
+              width:90%; margin:0 5%; padding:0;
+            }
+            .two-wrap>div>p>b:nth-of-type(2){
+              display: block; padding-top:10px;
+              width:90%; overflow:hidden; font-size:12px; }
+
+            .netflix-txt-p>p:not(:first-child), .netflix-txt>p, .netflix-txt-one>p{
+              padding:20px 0; display: block;
+            }
+
   .fix-home{
     width: 30px;
     height: 30px;
@@ -612,11 +666,11 @@ footer{
   header{
     height: 70vh;
   }
-  #one{
-    height: 110vh;
-    position: relative;
-    z-index: 40;
-  }
+                      #one{
+                        /*height: 110vh;*/
+                        position: relative;
+                        z-index: 40;
+                      }
   .h-menu > h1{
     display: none;
   }
@@ -629,7 +683,7 @@ footer{
     font-weight: 200;
     border: 1px solid var(--font-color-w);
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .h-txt > p{
     font-size: 3rem;
@@ -677,10 +731,10 @@ footer{
   th{
     font-size: 16px;
   }
-  .skills{
-    padding: 10px 0;
-    margin-right: 85px;
-  }
+                              .skills{
+                                padding: 10px 0;
+                                margin: 0 auto; 
+                              }
   .skills-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -700,10 +754,10 @@ footer{
     width: 30px;
     height: 40px;
   }
-  #two, .two{
-    position: relative;
-    height: 90vh;
-  }
+                        #two, .two{
+                          position: relative;
+                          /*height: 90vh;*/
+                        }
   #two > p,
   .two > p{
     padding: 30px 10px 20px 20px;
@@ -850,9 +904,9 @@ footer{
   #trd > .slide-trd > ul > li > p:last-child{
     padding-bottom: 20px;
   }
-  footer{
-    height: 30vh;
-  }
+                                footer{
+                                  /*height: 30vh;*/
+                                }
   .footer{
     width: 100%;
   }
