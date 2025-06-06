@@ -73,19 +73,18 @@ nav > ul{
   font-weight: bold;
   font-size: 16px;
 }
-.list > a:hover{
+/* .list > a:hover{
   background-color: var(--color-bg);
   color: var(--color-main);
   border-radius: 5px;
-}
-.list:hover > .list-sub-menu{
+} */
+/* .list:hover > .list-sub-menu{
   visibility: visible;
-}
+} */
 .list-sub-menu{
   width: 100%;
   position: absolute;
   top: 40px;
-  visibility: hidden;
   background-color: var(--color-bg);
   opacity: 0.9;
   z-index: 3;
@@ -98,11 +97,10 @@ nav > ul{
   text-align: center;
   cursor: pointer;
 } 
-/* .list-sub-menu > li:hover{
-  background-color: var(--color-bg);
-  color: var(--color-main);
-  opacity: 1;
-} */
+.list-sub-menu > li:hover{
+  color: #0f4733;
+  font-weight: bolder;
+}
 /* .list-sub-menu.active{
   opacity: 1;
 } */
@@ -268,7 +266,7 @@ main{
 .chevron {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 1250px;
   position: absolute;
   cursor: pointer;
   z-index: 20;
@@ -457,10 +455,33 @@ font-size: 25px;
   margin-top: 150px;
 }
 .slide{
-  display: flex;
-  justify-content: space-between;
+  overflow: hidden;
   margin-top: 20px;
 }
+.slide_inner{
+  width:200%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide_btn button{ 
+  border:0; 
+  background: none;
+  position: absolute; left:50%;
+  margin-top:200px; 
+}
+.slide_btn button:first-child{ margin-left:-650px; } 
+.slide_btn button:last-child{ margin-left:600px; } 
+
+
+.slide_btn button:hover{ 
+  opacity:0.5; 
+  cursor: pointer; 
+}
+
+
+
+
 .one-card,.two-card,.trd-card{
   width: 30%;
   height: 380px;
@@ -468,6 +489,7 @@ font-size: 25px;
   background-repeat: no-repeat;
   margin: 8px;
 }
+
 .one-card p,
 .two-card p,
 .trd-card p{
@@ -732,7 +754,7 @@ font-size: 25px;
 }
 
 /* 미디어쿼리 */
-@media screen and (max-width:1100px){
+@media screen and (max-width:1200px){
   header{
     background-image: url(./imges/main.webp);
     background-size: cover;
@@ -764,9 +786,6 @@ font-size: 25px;
   .notice{
     width: 83%;
     margin-left: 20px;
-  }
-  .chevron > .right{
-    left: 99%;
   }
   .img-wrap{
     width: 90%;
@@ -1205,3 +1224,5 @@ font-size: 25px;
     padding-top: 10px;
   }
 }
+
+
