@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="./style.css">
+  <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script>
+  <script src="script/motion.js"></script>
   <title>오설록 홈페이지</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
               <li>발효차/홍차</li>
               <li>블렌디드티</li>
               <li>허브티</li>
-              <li>말차/밀크티/콤부차</li>
+              <li>말차/밀크티</li>
             </ul>
           </li>
           <li class="list">
@@ -30,6 +32,11 @@
           </li>
           <li class="list">
             <a href="#">취향의 발견</a>
+              <ul class="list-sub-menu">
+              <li>오설록 취향</li>
+              <li>뮤지엄 특집</li>
+              <li>탄생 기념일</li>
+            </ul>
           </li>
           <li class="list">
             <a href="#">브랜드</a>
@@ -41,7 +48,7 @@
             </ul>
           </li>
           <li class="list">
-            <a href="#">단체 및 기업 구매</a>
+            <a href="#">단체 및 기업</a>
           </li>
         </ul>
         <div class="icon">
@@ -201,35 +208,75 @@
     <section class="four">
       <h2>매장소개</h2>
       <p>오프라인 매장에서 다채로운 오설록을 경험하세요.</p>
-      <div class="slide">
-        <a href="#"><img src="./imges/LeftChevron.png" alt="왼쪽 꺽새 아이콘"></a>
-        <a href="#" class="one-card">
-          <p>오설록<br>티하우스 북촌점</p>
-          <p>오설록이 재해석한 60년대의 가옥에서</p>
-          <p>오설록의 취향과 차문화를 경험하는 공간</p>
-        </a>
-        <a href="#" class="two-card">
-          <p>오설록<br>티하우스 한남점</p>
-          <p>오설록과 페이스갤러리의 협업으로 탄생한</p>
-          <p>예술과 차 애호가를 위한 차문화 복합 공간</p>
-            <ul class="circle">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </a>
-        <a href="#" class="trd-card">
-          <p>오설록<br>티하우스 MMCA</p>
-          <p>차와 국립현대미술관 서울관의</p>
-          <p>문화예술이 함께하는 차문화 발견의 공간</p>
-        </a>
-        <a href="#"><img src="./imges/rightChevron.png" alt="오른쪽 꺽새 아이콘"></a>
+
+      <div class ="slide_btn">
+        <button><img src="./imges/LeftChevron.png" alt="이전 슬라이드"></button>
+        <button><img src="./imges/rightChevron.png" alt="다음 슬라이드"></button>
       </div>
+
+      <div class="slide">
+        <div class="slide_inner"> 
+          
+            <a href="#" class="one-card">
+              <p>오설록<br>티하우스 북촌점</p>
+              <p>오설록이 재해석한 60년대의 가옥에서</p>
+              <p>오설록의 취향과 차문화를 경험하는 공간</p>
+            </a>
+
+            <a href="#" class="two-card">
+              <p>오설록<br>티하우스 한남점</p>
+              <p>오설록과 페이스갤러리의 협업으로 탄생한</p>
+              <p>예술과 차 애호가를 위한 차문화 복합 공간</p>
+                <ul class="circle">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+            </a>
+
+            <a href="#" class="trd-card">
+              <p>오설록<br>티하우스 MMCA</p>
+              <p>차와 국립현대미술관 서울관의</p>
+              <p>문화예술이 함께하는 차문화 발견의 공간</p>
+            </a>
+            
+            <a href="#" class="one-card">
+              <p>오설록<br>티하우스 북촌점</p>
+              <p>오설록이 재해석한 60년대의 가옥에서</p>
+              <p>오설록의 취향과 차문화를 경험하는 공간</p>
+            </a>
+
+            <a href="#" class="two-card">
+              <p>오설록<br>티하우스 한남점</p>
+              <p>오설록과 페이스갤러리의 협업으로 탄생한</p>
+              <p>예술과 차 애호가를 위한 차문화 복합 공간</p>
+                <ul class="circle">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+            </a>
+
+            <a href="#" class="trd-card">
+              <p>오설록<br>티하우스 MMCA</p>
+              <p>차와 국립현대미술관 서울관의</p>
+              <p>문화예술이 함께하는 차문화 발견의 공간</p>
+            </a>
+
+        </div>
+      </div>
+
+
       <a href="#" class="four-btn">
         <p>전체 매장 둘러보기</p>
         <i class="fa-solid fa-chevron-right"></i>
