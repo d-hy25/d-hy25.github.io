@@ -32,31 +32,25 @@ li{
   --text-dark: #fff;
 }
 body{
+  height:100vh;
   font-family: 'Pretendard', sans-serif;
+  background: url(./image/village-bg.jpg) no-repeat center top/cover;
 }
 body.dark_mode{
   background-color: var(--backgroung-dark);
   color: var(--text-dark);
   text-decoration: #fff;
   }
-
 body.dark_mode > .quote,
 body.dark_mode > .memowrap,
 body.dark_mode > .todowrap{
   background-color: var(--backgroung-dark);
   color: var(--text-dark);
 }
-
   .hidden{
   display: none;
 }
-main{
-  background-image: url(./image/village-bg.jpg);
-  height: 100vh;
-  position: relative;
-  background-size: cover;
-  background-position: center 70%;
-}
+
 input{
   border: none;
   border-bottom: 1px solid var(--backgroung-dark);
@@ -76,7 +70,6 @@ body.dark_mode input{
   display: flex;
   justify-content: center;
   gap: 200px;
-  margin-top: 15px;
 }
 .one-wrap, .todowrap{
   margin-top: 30px;
@@ -89,6 +82,7 @@ body.dark_mode input{
   padding: 5px;
   /* box-shadow: 1px 1px 5px #000; */
 }
+
 .quote.dark_mode, 
 .memowrap.dark_mode, 
 .todowrap.dark_mode{
@@ -110,11 +104,11 @@ body.dark_mode input{
   margin-top: 10px;
 }
 .memowrap{
-  height: 600px;
+  height: 400px;
   margin-top: 30px;
 }
 .todowrap{
-  height: 740px;
+  height: 545px;
 }
 .weatherwrap > p,
 .datewrap > .clock,
@@ -143,9 +137,8 @@ body.dark_mode input{
   font-size: 20px;
 }
 .footwrap{
-  position: absolute;
+ padding-top: 30px;
   width: 100%;
-  bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
