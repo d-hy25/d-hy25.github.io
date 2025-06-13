@@ -30,12 +30,25 @@ $(function(){
         $(this).children("a").css({background:"none",color: "#fff",
          borderRadius: "5px"});
     });
+    
+    //2) 향긋한 마음을 전하세요=============================================
+        $(".two > .chevron > .right").on("click",function(){
+        $(".img-wrap").stop().animate({ marginLeft: "-19%" },function(){
+            $(".img-wrap a:first").appendTo(".img-wrap");
+            $(".img-wrap").css({ marginLeft:0 });
+        });
+    });
 
+    $(".two > .chevron > .left").on("click",function(){
+        $(".img-wrap a:last").prependTo(".img-wrap");
+        $(".img-wrap").css({ marginLeft:"-19%" });
+        $(".img-wrap").stop().animate({ marginLeft:0 });
+    });
 
     //2) 매장소개===========================================================
 
     $(".slide_btn button:last").on("click",function(){
-        $(".slide_inner").stop().animate({ marginLeft: "-33%" },function(){
+        $(".slide_inner").stop().animate({ marginLeft: "-33.3333%" },function(){
             $(".slide_inner a:first").appendTo(".slide_inner");
             $(".slide_inner").css({ marginLeft:0 });
         });
@@ -43,7 +56,7 @@ $(function(){
 
     $(".slide_btn button:first").on("click",function(){
         $(".slide_inner a:last").prependTo(".slide_inner");
-        $(".slide_inner").css({ marginLeft:"-33%" });
+        $(".slide_inner").css({ marginLeft:"-33.3333%" });
         $(".slide_inner").stop().animate({ marginLeft:0 });
     });
 
