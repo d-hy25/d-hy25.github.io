@@ -13,10 +13,10 @@ button{ border:0; background: none; cursor: pointer;}
   display: flex;
 }
 .slide_list li{ flex:1;}
-.v1{ background: url(../images/img1.jpg) no-repeat center top/cover; }
-.v2{ background: url(../images/img2.jpg) no-repeat center top/cover; }
-.v3{ background: url(../images/img3.jpg) no-repeat center top/cover; }
-.v4{ background: url(../images/img4.jpg) no-repeat center top/cover; }
+.v1{ background: url(/images/img1.jpg) no-repeat center top/cover; }
+.v2{ background: url(/images/img2.jpg) no-repeat center top/cover; }
+.v3{ background: url(/images/img3.jpg) no-repeat center top/cover; }
+.v4{ background: url(/images/img4.jpg) no-repeat center top/cover; }
 
 .slide_btn1{ position: absolute; left:3%; top:300px; width:95%; }
 .slide_btn1 button:nth-child(1){ float:left; }
