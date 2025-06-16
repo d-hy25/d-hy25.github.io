@@ -32,7 +32,6 @@ li{
   --text-dark: #fff;
 }
 body{
-  height:100vh;
   font-family: 'Pretendard', sans-serif;
   background: url(./image/village-bg.jpg) no-repeat center top/cover;
 }
