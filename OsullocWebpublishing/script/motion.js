@@ -10,7 +10,7 @@ $(function(){
         });
     */
     $(".list-sub-menu").css({height:0, opacity:0});
-    $(".list-sub-menu li").css({ marginTop: -5 });
+    // $(".list-sub-menu li").css({ marginTop: -5 });
 
     $("nav>ul>li>a").on("mouseover",function(){
         $("nav ul ul").stop().animate({height:0, opacity:0},300);
