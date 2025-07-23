@@ -16,7 +16,9 @@ $(function(){
         $("nav ul ul").stop().animate({height:0, opacity:0},300);
         $("nav ul ul li").css({ marginTop: -5 });
         
-        $(this).next().stop().animate({height:"370px", opacity:1},300);
+        var count = $(this).next().children("li:last-child").index() + 1;
+        // $(this).next().stop().animate({height: "370px" , opacity:1},300);
+        $(this).next().stop().animate({height: count * 43 , opacity:1},300);
         $(this).next().children().animate({ marginTop: 0 });
     });
     $("nav > ul").on("mouseleave",function(){
@@ -32,16 +34,17 @@ $(function(){
     });
     
     //2) 향긋한 마음을 전하세요=============================================
-        $(".two > .chevron > .right").on("click",function(){
-        $(".img-wrap").stop().animate({ marginLeft: "-19%" },function(){
-            $(".img-wrap a:first").appendTo(".img-wrap");
+
+    $(".two > .chevron > .right").on("click",function(){        
+        $(".img-wrap").stop().animate({ marginLeft: "-10%" },function(){
+            $(".img-wrap a:first-child").appendTo(".img-wrap");
             $(".img-wrap").css({ marginLeft:0 });
         });
     });
 
     $(".two > .chevron > .left").on("click",function(){
         $(".img-wrap a:last").prependTo(".img-wrap");
-        $(".img-wrap").css({ marginLeft:"-19%" });
+        $(".img-wrap").css({ marginLeft:"-10%" });
         $(".img-wrap").stop().animate({ marginLeft:0 });
     });
 
