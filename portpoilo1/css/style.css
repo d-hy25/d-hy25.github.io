@@ -211,12 +211,13 @@ section{
 .works1 > div > button{
     position: absolute;
     right: 0;
-    top: 22px;
+    top: 10px;
     background-color: var(--color-basic);
     border-radius: 50%;
     color: var(--color-basic-two);
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
+    font-size: 17px;
 }
 .works1 > div p{
     font-weight: 400;
