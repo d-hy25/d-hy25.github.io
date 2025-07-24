@@ -621,7 +621,7 @@ footer{
 }
 @media screen and (max-width:750px){
   body .two-wrap>.img>a>img{ display: none; }
-  #one, #two, .two-wrap{ padding-bottom:50px;}
+  #one, #two{ padding-bottom:50px;}
 
   body .netflix-txt-p, 
   body .netflix-txt,
@@ -650,7 +650,6 @@ footer{
     height: 70vh;
   }
   #one{
-    /*height: 110vh;*/
     position: relative;
     z-index: 40;
   }
@@ -734,6 +733,10 @@ footer{
     width: 30px;
     height: 40px;
   }
+  .skills > .skills-list > li:nth-of-type(4)> img{
+    width: 65px;
+    height: 55px;
+  }
   #two, .two{
     position: relative;
   }
@@ -756,6 +759,9 @@ footer{
     flex-direction: column;
     z-index: 20;
     margin-left: 35px;
+  }
+  .two-wrap > .img{
+    padding-bottom: 0;
   }
   .two-wrap > .img > a > img{
     filter: brightness(15%);
