@@ -350,4 +350,9 @@ footer{
     position: fixed;
     bottom: 0;
     right: 0;
+    background-color: var(--color-basic);
+    padding: 5px;
+}
+footer > p{
+    color: var(--color-basic-two);
 }
