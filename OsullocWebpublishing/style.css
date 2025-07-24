@@ -25,7 +25,6 @@
   --color-sub2: #666;
   --color-point: #df5200;
 }
-
 *{
   margin: 0;
   padding: 0;
@@ -550,6 +549,7 @@ font-size: 25px;
     display: block;
     top: 20px;
     left: -180px;
+    cursor: pointer;
   }
   header > nav > a {
     margin: 0 auto;
