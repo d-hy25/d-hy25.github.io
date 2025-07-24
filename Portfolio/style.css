@@ -195,6 +195,10 @@ th{
   width: 70px;
   height: 70px;
 }
+.skills > .skills-list > li:nth-of-type(4)> img{
+  width: 100%;
+  height: 80px;
+}
 .skills > .skills-list > li> img:hover{
   scale: 1.2;
   transition: 0.5s ;
